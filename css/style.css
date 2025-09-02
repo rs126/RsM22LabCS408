@@ -7,7 +7,7 @@ body {
   background-color: rgb(41, 39, 39);
 }
 
-p,h1, ul, label {
+p, h1, ul, label {
   color: white;
   margin-left: 20%;
 }
@@ -35,7 +35,7 @@ button:hover {
 }
 
 .div1 {
-  margin-left: 7vw;
+  margin-left: 12vw;
 }
 
 
@@ -45,13 +45,13 @@ button:hover {
 }
 
 hr {
-  width: 65vw;
+  width: 55vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
 }
 
 .hr1 {
-  margin-left: 20vw;
+  margin-left: 25vw;
 }
 
 .button1 {
