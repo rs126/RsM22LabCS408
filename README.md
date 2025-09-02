@@ -17,10 +17,10 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
-To view and interact with the website the website either navagate to the website
+To view and interact with the website either navagate to the website
 http://127.0.0.1:3000/index.html
 
-Or in vscode open the live preview
+Or in vscode open the live preview.
 
 ## Development
 
