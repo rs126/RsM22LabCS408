@@ -4,6 +4,10 @@ This is a starter project for web development with no frameworks and minimal
 dependencies. It is intended to be a starting point for web development projects
 that are written in plain HTML, CSS, and JavaScript.
 
+The main webpage will just include a few bullet points of information about myself, a section to add two numbers and a joke generator.
+
+
+
 ## Getting Started
 
 To get started, clone this repository and run the following commands:
@@ -13,7 +17,7 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
-To view the website either navagate to the website
+To view and interact with the website the website either navagate to the website
 http://127.0.0.1:3000/index.html
 
 Or in vscode open the live preview
@@ -32,3 +36,7 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## Citations
+
+W3Schools. Window Alert() Method. https://www.w3schools.com/jsref/met_win_alert.asp. Accessed 2 Sep. 2025.
