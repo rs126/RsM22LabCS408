@@ -7,10 +7,7 @@ body {
   background-color: rgb(41, 39, 39);
 }
 
-p,
-h1,
-ul,
-label {
+p,h1, ul, label {
   color: white;
   margin-left: 20%;
 }
@@ -30,7 +27,6 @@ button {
   border-radius: 90;
   margin: 1vw;
   margin-left: 20%;
-
 
 }
 
