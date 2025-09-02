@@ -13,6 +13,11 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
+To view the website either navagate to the website
+http://127.0.0.1:3000/index.html
+
+Or in vscode open the live preview
+
 ## Development
 
 It is recommended to use the VSCode Live Server extension to run the project
