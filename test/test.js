@@ -54,7 +54,7 @@ QUnit.module('main.js tests', function () {
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
 
-    QUnit.test('A non-null string value should be returned to verify a joke was prited to webpage', function (assert) {
+    QUnit.test('A non-null string value should be returned to verify a joke was printed to webpage', function (assert) {
 
         const spyjoke = sinon.spy(fetchRandomJoke)
 
