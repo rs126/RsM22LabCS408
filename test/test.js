@@ -4,7 +4,7 @@ import sinon from 'sinon';
 
 QUnit.module('main.js tests', function () {
 
-    QUnit.test('helloWorld should print Hello World to the console', function (assert) {
+    QUnit.test('helloWorld should print Hello World to an alert in Browser', function (assert) {
         
         /*Prevents crash due to alert function not being defined in node JS */
         /*This conditional check was written with help from chatGPT */
