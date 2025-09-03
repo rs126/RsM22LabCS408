@@ -20,7 +20,7 @@ This will install the necessary dependencies for the project.
 To view and interact with the website either navigate to the website at
 http://127.0.0.1:3000/index.html
 
-Or in vscode open the live preview.
+Or in vscode open the live preview via the square icon with the magnifying glass at the top right.
 
 ## Development
 
@@ -28,6 +28,8 @@ It is recommended to use the VSCode Live Server extension to run the project
 locally. This will allow you to see changes in real-time as you make them. There
 is no need to run a build process or refresh the page manually. Additionally,
 you do not need to setup a local server to run the project.
+
+Debugging and code modification can be done in real time while viewing the webpage. This can be done by clicking the icon on the left with the play button and the bug and then clicking debug.
 
 ## Testing
 
