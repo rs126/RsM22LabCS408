@@ -17,8 +17,8 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
-To view and interact with the website either navigate to the website at
-http://127.0.0.1:3000/index.html
+To view and interact with the website either navigate to the URL
+http://127.0.0.1:3000/index.html in a Browser.
 
 Or in vscode open the live preview via the square icon with the magnifying glass at the top right.
 
