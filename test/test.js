@@ -5,13 +5,13 @@ import sinon from 'sinon';
 QUnit.module('main.js tests', function () {
 
     QUnit.test('helloWorld should print Hello World to an alert in Browser', function (assert) {
-        
+
         /*Prevents crash due to alert function not being defined in node JS */
         /*This conditional check was written with help from chatGPT */
         if (typeof global.alert === 'undefined') {
-            global.alert = function () {}; // Mock alert to prevent errors with Node 
+            global.alert = function () { }; // Mock alert to prevent errors with Node 
         }
-        
+
         //Arrange
         const winalertSpy = sinon.spy(global, 'alert');
         //Act
@@ -54,10 +54,10 @@ QUnit.module('main.js tests', function () {
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
 
-    QUnit.test('A nonnull string should be returned to verify a joke was prited to webpage', function (assert) {
-    
+    QUnit.test('A non-null string value should be returned to verify a joke was prited to webpage', function (assert) {
+
         const spyjoke = sinon.spy(fetchRandomJoke)
-        
+
         assert.notEqual(spyjoke, null, "a non-null string value should populate the webpage");
 
     });
