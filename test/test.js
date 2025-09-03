@@ -9,7 +9,7 @@ QUnit.module('main.js tests', function () {
         /*Prevents crash due to alert function not being defined in node JS */
         /*This conditional check was written with help from chatGPT */
         if (typeof global.alert === 'undefined') {
-            global.alert = function () {}; // Mock alert to prevent errors in Node.js environment
+            global.alert = function () {}; // Mock alert to prevent errors with Node 
         }
         
         //Arrange
